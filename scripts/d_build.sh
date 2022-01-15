@@ -1,1 +1,1 @@
-docker build -t cfe-jupyter -f Dockerfile .
+docker build -t akamutu-jupyter -f Dockerfile .

@@ -1,4 +1,4 @@
 gcloud builds submit \
---tag gcr.io/codingforentrepreneurs/cfe-jupyter \
- /Users/jmitch/Dev/cfe-jupyter/ \
+--tag gcr.io/codingforentrepreneurs/akamutu-jupyter \
+ /Users/jmitch/Dev/akamutu-jupyter/ \
 --project codingforentrepreneurs
