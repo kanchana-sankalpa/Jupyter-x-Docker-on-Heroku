@@ -21,6 +21,8 @@ c.NotebookApp.allow_root = True
 #c.NotebookApp.allow_password_change = True
 c.ConfigurableHTTPProxy.command = ['configurable-http-proxy', '--redirect-port', '80']
 
+c.NotebookApp.terminals_enabled = False
+
 # Configuration file for jupyter-notebook.
 
 #------------------------------------------------------------------------------
@@ -581,6 +583,7 @@ c.ConfigurableHTTPProxy.command = ['configurable-http-proxy', '--redirect-port',
 #  
 #  Access to these files should be Authenticated.
 #c.ContentsManager.files_handler_class = 'notebook.files.handlers.FilesHandler'
+c.ContentsManager.files_handler_class = None
 
 ## Extra parameters to pass to files_handler_class.
 #  
